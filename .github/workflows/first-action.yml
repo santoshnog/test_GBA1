@@ -2,9 +2,9 @@ name: test_WF1
 on: workflow_dispatch
 jobs:
   first_job:
-  runs-on: ubuntu-latest
-  steps:
-    - name: print data
-      run: echo "Hellow world !"
-    - name: print data2
-      run: echo "Welcome......."
+    runs-on: ubuntu-latest
+    steps:
+      - name: print data
+        run: echo "Hellow world !"
+      - name: print data2
+        run: echo "Welcome......."
