@@ -8,3 +8,11 @@ jobs:
         run: echo "Hellow world !"
       - name: print data2
         run: echo "Welcome......."
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print some more data
+        run: |
+          echo "This is second job"
+          echo "second job line2"
+          echo "second job line3"
